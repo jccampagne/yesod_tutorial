@@ -4,7 +4,6 @@
 {-# LANGUAGE TypeFamilies      #-}
 
 import Yesod
-import Data.Time.Clock
 import Data.Text
 
 data Master = Master
