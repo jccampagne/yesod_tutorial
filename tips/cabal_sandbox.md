@@ -8,6 +8,8 @@ cd $NEWPROJECT
 cabal sandbox init
 cp $OLDPROJECT/.cabal-sandbox/x86_64-osx-ghc-7.10.1-packages.conf.d/* $NEWPROJECT/.cabal-sandbox/x86_64-osx-ghc-7.10.1-packages.conf.d/
 cabal sandbox hc-pkg recache
+```
+
 
 if missing new dependencies:
 
